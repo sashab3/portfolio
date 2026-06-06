@@ -1,0 +1,21 @@
+body {
+  background-color: rgb(212, 160, 255);
+  color: rgb(65, 0, 117);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  padding: 20px;
+}
+
+section, aside {
+  padding: 10px;
+}
+
+@media (max-width: 600px) {
+  main {
+    flex-direction: column;
+  }
+}
